@@ -1,0 +1,197 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <TargetFramework>net7.0-windows7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PublishAot>true</PublishAot>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	<BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+	<_SuppressWinFormsTrimError>true</_SuppressWinFormsTrimError>
+	<AssemblyName>Client</AssemblyName>
+	<PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Icons\ac80.png" />
+    <None Remove="Resources\Icons\ak47.png" />
+    <None Remove="Resources\Icons\an94.png" />
+    <None Remove="Resources\Icons\aug.png" />
+    <None Remove="Resources\Icons\awm.png" />
+    <None Remove="Resources\Icons\bizon.png" />
+    <None Remove="Resources\Icons\chargebuster.png" />
+    <None Remove="Resources\Icons\dragon.png" />
+    <None Remove="Resources\Icons\esp_editor_preview.png" />
+    <None Remove="Resources\Icons\desert-eagle.png" />
+    <None Remove="Resources\Icons\famas.png" />
+    <None Remove="Resources\Icons\fist.png" />
+    <None Remove="Resources\Icons\g18.png" />
+    <None Remove="Resources\Icons\g36.png" />
+    <None Remove="Resources\Icons\groza.png" />
+    <None Remove="Resources\Icons\heal-pistol.png" />
+    <None Remove="Resources\Icons\healsniper.png" />
+    <None Remove="Resources\Icons\kar98k.png" />
+    <None Remove="Resources\Icons\kingfisher.png" />
+    <None Remove="Resources\Icons\kord.png" />
+    <None Remove="Resources\Icons\m1014.png" />
+    <None Remove="Resources\Icons\m14.png" />
+    <None Remove="Resources\Icons\m1873.png" />
+    <None Remove="Resources\Icons\m1887.png" />
+    <None Remove="Resources\Icons\m1917.png" />
+    <None Remove="Resources\Icons\m24.png" />
+    <None Remove="Resources\Icons\m249.png" />
+    <None Remove="Resources\Icons\m4a1.png" />
+    <None Remove="Resources\Icons\m500.png" />
+    <None Remove="Resources\Icons\m590.png" />
+    <None Remove="Resources\Icons\m60.png" />
+    <None Remove="Resources\Icons\m82b.png" />
+    <None Remove="Resources\Icons\mac10.png" />
+    <None Remove="Resources\Icons\mag7.png" />
+    <None Remove="Resources\Icons\mini-uzi.png" />
+    <None Remove="Resources\Icons\mp40.png" />
+    <None Remove="Resources\Icons\mp5.png" />
+    <None Remove="Resources\Icons\p90.png" />
+    <None Remove="Resources\Icons\parafal.png" />
+    <None Remove="Resources\Icons\pixelicon.png" />
+    <None Remove="Resources\Icons\plasma.png" />
+    <None Remove="Resources\Icons\scar.png" />
+    <None Remove="Resources\Icons\shield-gun.png" />
+    <None Remove="Resources\Icons\sks.png" />
+    <None Remove="Resources\Icons\spas12.png" />
+    <None Remove="Resources\Icons\svd.png" />
+    <None Remove="Resources\Icons\thompson.png" />
+    <None Remove="Resources\Icons\trogon.png" />
+    <None Remove="Resources\Icons\ump.png" />
+    <None Remove="Resources\Icons\usp.png" />
+    <None Remove="Resources\Icons\usp2.png" />
+    <None Remove="Resources\Icons\vector.png" />
+    <None Remove="Resources\Icons\vsk94.png" />
+    <None Remove="Resources\Icons\vss.png" />
+    <None Remove="Resources\Icons\woodpecker.png" />
+    <None Remove="Resources\Icons\xm8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Icons\ac80.png" />
+    <EmbeddedResource Include="Resources\Icons\ak47.png" />
+    <EmbeddedResource Include="Resources\Icons\an94.png" />
+    <EmbeddedResource Include="Resources\Icons\aug.png" />
+    <EmbeddedResource Include="Resources\Icons\awm.png" />
+    <EmbeddedResource Include="Resources\Icons\bizon.png" />
+    <EmbeddedResource Include="Resources\Icons\chargebuster.png" />
+    <EmbeddedResource Include="Resources\Icons\dragon.png" />
+    <EmbeddedResource Include="Resources\Icons\esp_editor_preview.png" />
+    <EmbeddedResource Include="Resources\Icons\desert-eagle.png" />
+    <EmbeddedResource Include="Resources\Icons\famas.png" />
+    <EmbeddedResource Include="Resources\Icons\fist.png" />
+    <EmbeddedResource Include="Resources\Icons\g18.png" />
+    <EmbeddedResource Include="Resources\Icons\g36.png" />
+    <EmbeddedResource Include="Resources\Icons\groza.png" />
+    <EmbeddedResource Include="Resources\Icons\heal-pistol.png" />
+    <EmbeddedResource Include="Resources\Icons\healsniper.png" />
+    <EmbeddedResource Include="Resources\Icons\kar98k.png" />
+    <EmbeddedResource Include="Resources\Icons\kingfisher.png" />
+    <EmbeddedResource Include="Resources\Icons\kord.png" />
+    <EmbeddedResource Include="Resources\Icons\m1014.png" />
+    <EmbeddedResource Include="Resources\Icons\m14.png" />
+    <EmbeddedResource Include="Resources\Icons\m1873.png" />
+    <EmbeddedResource Include="Resources\Icons\m1887.png" />
+    <EmbeddedResource Include="Resources\Icons\m1917.png" />
+    <EmbeddedResource Include="Resources\Icons\m24.png" />
+    <EmbeddedResource Include="Resources\Icons\m249.png" />
+    <EmbeddedResource Include="Resources\Icons\m4a1.png" />
+    <EmbeddedResource Include="Resources\Icons\m500.png" />
+    <EmbeddedResource Include="Resources\Icons\m590.png" />
+    <EmbeddedResource Include="Resources\Icons\m60.png" />
+    <EmbeddedResource Include="Resources\Icons\m82b.png" />
+    <EmbeddedResource Include="Resources\Icons\mac10.png" />
+    <EmbeddedResource Include="Resources\Icons\mag7.png" />
+    <EmbeddedResource Include="Resources\Icons\mini-uzi.png" />
+    <EmbeddedResource Include="Resources\Icons\mp40.png" />
+    <EmbeddedResource Include="Resources\Icons\mp5.png" />
+    <EmbeddedResource Include="Resources\Icons\p90.png" />
+    <EmbeddedResource Include="Resources\Icons\parafal.png" />
+    <EmbeddedResource Include="Resources\Icons\pixelicon.png" />
+    <EmbeddedResource Include="Resources\Icons\plasma.png" />
+    <EmbeddedResource Include="Resources\Icons\scar.png" />
+    <EmbeddedResource Include="Resources\Icons\shield-gun.png" />
+    <EmbeddedResource Include="Resources\Icons\sks.png" />
+    <EmbeddedResource Include="Resources\Icons\spas12.png" />
+    <EmbeddedResource Include="Resources\Icons\svd.png" />
+    <EmbeddedResource Include="Resources\Icons\thompson.png" />
+    <EmbeddedResource Include="Resources\Icons\trogon.png" />
+    <EmbeddedResource Include="Resources\Icons\ump.png" />
+    <EmbeddedResource Include="Resources\Icons\usp.png" />
+    <EmbeddedResource Include="Resources\Icons\usp2.png" />
+    <EmbeddedResource Include="Resources\Icons\vector.png" />
+    <EmbeddedResource Include="Resources\Icons\vsk94.png" />
+    <EmbeddedResource Include="Resources\Icons\vss.png" />
+    <EmbeddedResource Include="Resources\Icons\woodpecker.png" />
+    <EmbeddedResource Include="Resources\Icons\xm8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Components\*.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\dragon.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Icons\esp_editor_preview.png" CopyToOutputDirectory="PreserveNewest" Link="Resources\Icons\esp_editor_preview.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="fonts\fa-solid-900.ttf">
+      <LogicalName>fa_solid_900.ttf</LogicalName>
+    </EmbeddedResource>
+    <!-- CounterStrike2-style path: fonts\fa-solid-900.ttf next to output (merge from file when present) -->
+    <Content Include="fonts\fa-solid-900.ttf" CopyToOutputDirectory="PreserveNewest" Link="fonts\fa-solid-900.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Weapons\*.png" />
+    <EmbeddedResource Include="Resources\Editor\*.png" />
+    <EmbeddedResource Include="Resources\Fonts\NotoCunei.ttf" />
+    <EmbeddedResource Include="Resources\Fonts\NotoEgypt.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<RdXmlFile Include="rd.xml" />
+  </ItemGroup>
+
+
+ 
+  <ItemGroup>
+    <PackageReference Include="AsmResolver.PE" Version="5.5.1" />
+    <PackageReference Include="AsmResolver.PE.File" Version="5.5.1" />
+    <PackageReference Include="ClickableTransparentOverlay" Version="10.2.0" />
+    <PackageReference Include="DiscordRichPresence" Version="1.6.1.70" />
+    <PackageReference Include="DNNE" Version="2.0.7" />
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.6" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="WinFormsComInterop" Version="0.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Notify.wav" CopyToOutputDirectory="PreserveNewest" Condition="Exists('$(ProjectDir)Notify.wav')" />
+    <None Include="Succses1.wav" CopyToOutputDirectory="PreserveNewest" Condition="Exists('$(ProjectDir)Succses1.wav')" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  
+</Project>
